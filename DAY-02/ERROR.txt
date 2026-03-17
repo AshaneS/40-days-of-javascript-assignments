@@ -1,0 +1,6 @@
+'name' is deprecated.ts(6385)
+lib.dom.d.ts(38504, 5): The declaration was marked as deprecated here.
+const name: any
+@deprecated
+
+No quick fixes available
