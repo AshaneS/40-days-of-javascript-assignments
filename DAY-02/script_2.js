@@ -9,7 +9,7 @@ let student = {
 
 // assining the student object to a new variable called teacher.
 // changed the teacher name to alex. works with let
-// This refers the same memory location
+// This refers the same memory location so changing teacher will change student as well
 let teacher = student;
 teacher.name = "Alex";
 
