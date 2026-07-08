@@ -4,6 +4,7 @@ function findMax(num1, num2) {
   } else if (num1 < num2) {
     return num2;
   } else {
+    // if numbers are equal return num1
     return num1;
   }
 }
