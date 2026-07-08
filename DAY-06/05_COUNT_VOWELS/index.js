@@ -1,3 +1,7 @@
+
+// vowelSum calculatas the sum
+// position ++ increments until position = str.length - 1, so the last letter.
+
 function countVowels(str) {
   let vowelSum = 0;
   let position = 0;
