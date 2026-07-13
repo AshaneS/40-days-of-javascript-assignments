@@ -11,6 +11,10 @@ function guessTheNumber() {
 
   do {
     userGuess = prompt("Enter your number between 1 and 10");
+    if (userGuess === NaN || userGuess > 10 || userGuess < 1) {
+      console.log("Invalid Input. Please input a number between 1 and 10");
+      break;
+    }
     attempts += 1;
     // console.log(userGuess);
     if (userGuess > computerGeneratedNumber) {
