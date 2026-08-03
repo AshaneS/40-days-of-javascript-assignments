@@ -7,3 +7,6 @@
 
  ![alt text](<Stack and heap flow.JPG>)
 
+ # Stack Diagram
+
+ ![alt text](<Stack Diagram.JPG>)
