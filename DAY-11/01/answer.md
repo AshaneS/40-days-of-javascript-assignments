@@ -5,7 +5,7 @@
 
 # Explanation
 
-- the inner() is a closure that remember varibles that are decalred in it's lexical scope(outer function).
+- the inner() is a closure that remembers varibles that are decalred in it's lexical scope(outer function).
 
  - the counter variable holds a reference to innner() which still holds a reference to the count variable even the outer() has finished executing.
 
