@@ -1,0 +1,3 @@
+- freeze makes the object completely immutable.
+- so we cannot add, delete or modify properties
+- so in this case, property values wont change
