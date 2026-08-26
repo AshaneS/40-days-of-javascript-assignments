@@ -1,3 +1,4 @@
+// Loop and print values using Object destructuiring
 const users = [
   {
     name: "Alex",
@@ -15,3 +16,9 @@ const users = [
     age: 26,
   },
 ];
+
+//answer
+
+for (let { name, address, age } of users) {
+  console.log(name, address, age);
+}
